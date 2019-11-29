@@ -110,6 +110,8 @@ GLFWwindow* GlEngine::get_window()
 	return window_;
 }
 
+
+
 template<typename Callable>
 inline void GlEngine::add_callback(
 	callback_type type,
